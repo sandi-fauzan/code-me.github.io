@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.active{
+    display: block;
+}    
+
+.link .icon i {
+    display: hidden;
+}
+
+
+/* media query untuk HP device */
+
+@media only screen and (max-width:600px){
+    /* Jumbo */
+    .jumbo {
+        padding: 0;
+        margin: 0;
+    }
+    .jumbo img {
+        display: none;
+    }
+    .jumbo h1 {
+        font-size: 34px;
+        margin: -40px;
+        min-width: 100%;
+    }
+    .jumbo p {
+        font-size: 12px;
+        padding: 0;
+        margin: 46px -40px;
+        min-width: 100%;
+    }
+    .jumbo-hdn {
+        display: none;
+    }
+    .jumbo button {
+        margin: -40px;
+        padding: 0;
+        height: 20px;
+    }
+
+    .navbar {
+        overflow: hidden;
+    }
+
+    .navbar a, .navbar button {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+
+
+
+
+    /* features */
+    .feature h1 {
+        font-size: 21px;
+    }
+    .feature .grid {
+        display: block;
+    }
+    .hdn {
+        display: none;
+    }
+}

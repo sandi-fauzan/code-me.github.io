@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a43f54e31d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="navbar flex fixed bg-white min-w-full h-20 p-4 z-10">
+        <div class="brand ml-11 mt-2 flex">
+            <span><i class="fas fa-code text-purple-600 text-4xl"></i></span>
+            <h3 class="font-bold text-2xl lg:items-center ml-4">codeme.</h3>
+        </div>
+        <div class="link ml-auto mr-8 mt-2">
+            <a class="mr-2 transition duration-300 text-sm text-purple-600 font-semibold hover:bg-purple-100 py-2 px-4" href="#home">Home</a>
+            <a class="mr-2 transition duration-300 text-sm text-purple-400 hover:bg-purple-100 py-2 px-4 focus:font-bold" href="#feature">Feature</a>
+            <a class="mr-2 transition duration-300 text-sm text-purple-400 hover:bg-purple-100 py-2 px-4 focus:font-bold" href="#about">About Us</a>
+            <a class="mr-2 transition duration-300 text-sm text-purple-400 hover:bg-purple-100 py-2 px-4 focus:font-bold" href="#plans">Plans</a>
+            <a class="mr-2 transition duration-300 text-sm text-purple-400 hover:bg-purple-100 py-2 px-4 focus:font-bold" href="#contact">Contact</a>
+            <a class="mr-2 transition duration-300 text-sm text-purple-400 hover:bg-purple-100 py-2 px-4 focus:font-bold" href="#testi">Testimonial</a>
+            <button class="mr-8 text-sm text-purple-400 bg-purple-100 text-purple-600 font-semibold px-6 py-2 rounded hover:bg-purple-600 hover:text-white" href="#home">Sign Up</button>
+
+        </div>
+    </div>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <div class="container jumbo mx-auto">
+        <div class="grid grid-cols-2">
+
+            <div class="mt-44 ml-16">
+                <h1 class="max-w-lg text-6xl font-semibold">Create Your Own <span
+                        class="font-bold text-purple-600">Website</span> in codeme.</h1>
+                <p class=" text-gray-400 mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                    sit eveniet quibusdam enim totam natus consectetur accusantium molestias nostrum, rerum aspernatur
+                        animi soluta aliquam voluptas alias, culpa ullam fuga.</p>
+
+                <div class="flex">
+                    <button
+                        class="mt-10 text-sm px-8 py-2 bg-purple-600 rounded text-white font-semibold hover:bg-purple-100 hover:text-purple-600 transition duration-200 ">Sign
+                        Up for Free</button>
+                    <p class="cursor-pointer text-sm hover:text-gray-600 mt-12 ml-6 underline font-bold">Get the documentation
+                        here.</p>
+                </div>
+            </div>
+            <div class="mt-52 ml-20">
+                <img class="w-3/4" src="1.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container mt-56 feature mx-auto" id="feature">
+        <h1 class="text-4xl md:text-3xl text-center font-bold">Why <span class="text-purple-600">Choose</span> Us?</h1>
+
+
+        <div class="grid grid-cols-5 gap-x-8 gap-y-10 mt-20">
+
+            <!-- row 1 -->
+            <div
+                class="group ml-4 rounded py-10 px-8 col-span-3 bg-green-50 hover:bg-green-400 transition duration-300 hover:text-white">
+                <span><i class="fas fa-desktop text-green-400 text-5xl mt-4 group-hover:text-white"></i></span>
+                <h1 class="text-3xl font-bold mt-4 group-hover:text-white text-green-600">Build for Free</h1>
+                <p class=" text-sm mt-2 text-green-400 group-hover:text-white">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Assumenda reiciendis est quasi reprehenderit vitae modi. Dolores commodi soluta
+                    tenetur suscipit facere possimus <span class=" hdn"> fugiat molestiae enim voluptatibus? Qui, obcaecati. Id distinctio,
+                    quaerat aliquid consequuntur odio aspernatur veritatis labore error mollitia suscipit. Consequatur
+                    eum magnam veniam non ab eaque?</span> </p>
+            </div>
+            <div
+                class="group mr-4 rounded py-10 px-8 col-span-2 bg-blue-50 hover:bg-blue-400 transition duration-300 hover:text-white">
+                <span><i class="fas fa-tachometer-alt text-blue-400 text-5xl mt-4 group-hover:text-white"></i></span>
+                <h1 class="text-3xl font-bold mt-4 group-hover:text-white text-blue-500">Fast!</h1>
+                <p class=" text-sm mt-2 text-blue-400 group-hover:text-white">Lorem ipsum dolor sit amet consectetur,
+                    adip. lores commodi soluta tenetur suscipit facere possimus fugiat molestiae enim voluptatibus? Qui,
+                    obcaecati. Id distinctio. <span class=" hdn">quaerat aliquid consequuntur odio aspernatur veritatis labore error
+                    mollitia suscipit. Consequatur eum magnam veniam non ab eaque?</span></p>
+            </div>
+
+            <!-- row 2 -->
+            <div
+                class="group ml-4 rounded py-10 px-8 col-span-2 bg-pink-50 hover:bg-pink-400 transition duration-300 hover:text-white">
+                <span><i class="fas fa-users text-pink-400 text-5xl mt-4 group-hover:text-white"></i></span>
+                <h1 class="text-3xl font-bold mt-4 group-hover:text-white text-pink-500">User Friendly</h1>
+                <p class=" text-sm mt-2 text-pink-400 group-hover:text-white">Lorem ipsum dolor sit amet consectetur,
+                    adip. lores commodi soluta tenetur suscipit facere possimus fugiat molestiae enim voluptatibus? Qui,
+                    obcaecati. <span class=" hdn">Id distinctio, quaerat aliquid consequuntur odio aspernatur veritatis labore error
+                    mollitia suscipit. Consequatur eum magnam veniam non ab eaque?</span></p>
+            </div>
+            <div
+                class="group mr-4 rounded py-10 px-8 col-span-3 bg-indigo-50 hover:bg-indigo-400 transition duration-300 hover:text-white">
+                <span><i class="fas fa-user-lock text-indigo-400 text-5xl mt-4 group-hover:text-white"></i></span>
+                <h1 class="text-3xl font-bold mt-4 group-hover:text-white text-indigo-600">Private and Security</h1>
+                <p class=" text-sm mt-2 text-indigo-400 group-hover:text-white">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Assumenda reiciendis est quasi reprehenderit vitae modi. Dolores commodi soluta
+                    tenetur suscipit <span class=" hdn">facere possimus fugiat molestiae enim voluptatibus? Qui, obcaecati. Id distinctio,
+                    quaerat aliquid consequuntur odio aspernatur veritatis labore error mollitia suscipit. Consequatur
+                    eum magnam veniam non ab eaque?</span></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="container mt-80 about mx-auto" id="about">
+        <div class="text-center block">
+            <h1 class=" text-4xl font-bold">About Us</h1>
+            <p class="text-center float-center text-gray-600 px-20 mt-10">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Quisquam sed
+                labore perspiciatis, fugit esse dolorum hic magnam numquam saepe inventore corporis temporibus,
+                architecto sit alias optio quidem laudantium maiores dolorem quam modi.</p>
+
+        </div>
+
+        <div class="grid grid-cols-7 gap-x-8 text-center px-20 mt-32">
+            <span><i class="fab fa-html5 text-7xl text-gray-300"></i></span>
+            <span><i class="fab fa-css3-alt text-7xl text-gray-300"></i></span>
+            <span><i class="fab fa-js-square text-7xl text-gray-300"></i></span>
+            <span><i class="fab fa-vuejs text-7xl text-gray-300"></i></span>
+            <span><i class="fab fa-react text-7xl text-gray-300"></i></span>
+            <span><i class="fab fa-bootstrap text-7xl text-gray-300"></i></span>
+            <span><i class="fab fa-sass text-7xl text-gray-300"></i></span>
+        </div>
+    </div>
+
+
+
+    <div class="container plans mt-80 mx-auto" id="plans">
+        <div class="min-h-screen flex justify-center items-center">
+            <div>
+                <div class="text-center font-semibold">
+                    <h1 class="text-5xl">
+                        <span class="text-purple-600 font-bold tracking-wide">Flexible </span>
+                        <span>Plans</span>
+                    </h1>
+                    <p class="pt-6 text-xl text-gray-400 font-normal w-full px-8">
+                        Choose a plan that works best for you and<br /> your team.
+                    </p>
+                </div>
+                <div class="pt-24 flex flex-row justify-center">
+                    
+                    
+                    <!-- Basic Card -->
+                    <div class="w-96 p-8 bg-white text-center rounded-3xl pr-16 shadow-xl">
+                        <h1 class="text-black font-semibold text-2xl">Basic</h1>
+                        <p class="pt-2 tracking-wide">
+                            <span class="text-3xl font-semibold text-sm">Free</span>
+                            <span class="text-gray-400 font-medium">/ user</span>
+                        </p>
+                        <hr class="mt-4 border-1">
+                        <div class="pt-8">
+                            <p class="font-semibold text-gray-400 text-left">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    Get started with <span class="text-black">messaging</span>
+                                </span>
+                            </p>
+                            <p class="font-semibold text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    Flexible <span class="text-black">team meetings</span>
+                                </span>
+                            </p>
+                            <p class="font-semibold text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    <span class="text-black">5 TB</span> cloud storage
+                                </span>
+                            </p>
+                            <p class="font-semibold text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    <span class="text-black">1</span> Project max
+                                </span>
+                            </p>
+
+                            <a href="#" class="">
+                                <p
+                                    class="w-full py-4 py-2 bg-purple-600 hover:bg-purple-100 transition duration-300 hover:text-purple-600 mt-8 rounded-xl text-white">
+                                    <span class="font-medium">
+                                        Choose Plan
+                                    </span>
+                                    <span class="pl-2 material-icons align-middle text-sm">
+                                        east
+                                    </span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- StartUp Card -->
+                    <div
+                        class="w-80 p-8 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl transform scale-125">
+                        <h1 class="text-white font-semibold text-2xl">Startup</h1>
+                        <p class="pt-2 tracking-wide">
+                            <span class="text-gray-400 align-top">$ </span>
+                            <span class="text-3xl font-semibold">24</span>
+                            <span class="text-gray-400 font-medium">/ user</span>
+                        </p>
+                        <hr class="mt-4  border-1 border-gray-600">
+                        <div class="pt-8">
+                            <p class="font-semibold text-gray-400 text-left">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2 text-xs">
+                                    All features in <span class="text-white">Basic</span>
+                                </span>
+                            </p>
+                            <p class="font-semibold text-xs text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    Flexible <span class="text-white">call scheduling</span>
+                                </span>
+                            </p>
+                            <p class="font-semibold text-xs text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    <span class="text-white">15 TB</span> cloud storage
+                                </span>
+                            </p>
+                            <p class="font-semibold text-xs text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    <span class="text-white">3</span> Project max
+                                </span>
+                            </p>
+
+                            <a href="#" class="">
+                                <p
+                                    class="w-full py-4 text-sm bg-purple-600 mt-8 transition duration-300 hover:bg-purple-100 hover:text-purple-600 rounded-xl text-white">
+                                    <span class="font-medium">
+                                        Choose Plan
+                                    </span>
+                                    <span class="pl-2 material-icons align-middle text-sm">
+                                        east
+                                    </span>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="absolute top-4 right-4 mb-10">
+                            <p class="bg-purple-700 font-semibold px-4 py-1 rounded-full uppercase text-xs">Popular</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Enterprise Card -->
+                    <div class="w-96 p-8 bg-white text-center rounded-3xl pl-16 shadow-xl">
+                        <h1 class="text-black font-semibold text-2xl">Enterprise</h1>
+                        <p class="pt-2 tracking-wide">
+                            <span class="text-gray-400 align-top">$ </span>
+                            <span class="text-3xl font-semibold  md:text-lg">35</span>
+                            <span class="text-gray-400 font-medium">/ user</span>
+                        </p>
+                        <hr class="mt-4 border-1">
+                        <div class="pt-8">
+                            <p class="font-semibold text-gray-400 text-left">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    All features in <span class="text-black">Startup</span>
+                                </span>
+                            </p>
+                            <p class="font-semibold text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    Growth <span class="text-black">oriented</span>
+                                </span>
+                            </p>
+                            <p class="font-semibold text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    <span class="text-black">Unlimited</span> cloud storage
+                                </span>
+                            </p>
+                            <p class="font-semibold text-gray-400 text-left pt-5">
+                                <span class="material-icons align-middle">
+                                    done
+                                </span>
+                                <span class="pl-2">
+                                    <span class="text-black">6</span> Project max
+                                </span>
+                            </p>
+
+                            <a href="#" class="">
+                                <p
+                                    class="w-full py-4 py-2 bg-purple-600 transition duration-300 hover:bg-purple-100 hover:text-purple-600 mt-8 rounded-xl text-white">
+                                    <span class="font-medium">
+                                        Choose Plan
+                                    </span>
+                                    <span class="pl-2 material-icons align-middle text-sm">
+                                        east
+                                    </span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container contact mt-80 mx-auto px-40" id="contact">
+        <form action="" class="form bg-white p-6 my-10 relative">
+
+            <div class="icon bg-purple-600 text-white w-6 h-6 absolute flex items-center justify-center p-5"
+                style="left:-40px"><i class="fas fa-phone-volume fa-fw text-2xl transform -rotate-45"></i></div>
+            <h3 class="text-4xl text-gray-900 font-semibold">Let us call you!</h3>
+            <p class="text-gray-600 mt-12"> To help you choose your property</p>
+            <div class="flex space-x-5 mt-3">
+                <input type="text" name="" id="" placeholder="Your Name" class="border p-2 py-4 w-1/2">
+                <input type="tel" name="" id="" placeholder="Your Number" class="border p-2 py-4 w-1/2">
+            </div>
+            <input type="email" name="" id="" placeholder="Your Email" class="border p-2 py-4 w-full mt-3">
+            <textarea name="" id="" cols="10" rows="3" placeholder="Tell us about desired property"
+                class="border p-2 h-60 mt-3 w-full"></textarea>
+            <div class="flex items-baseline space-x-2 mt-8">
+                <input type="checkbox" name="" id="" class="inline-block">
+                <p class="text-gray-600 text-sm">I consent to having this website store my submitted information so they
+                    can respond to my inquiry.</p>
+            </div>
+            <input type="submit" value="Submit"
+                class="w-full mt-6 bg-purple-600 hover:bg-purple-100 hover:text-purple-600 transition duration-300 text-white font-semibold p-3">
+
+        </form>
+
+    </div>
+
+
+    <div class="container testimonial mx-auto mt-60" id="testi">
+
+        <div class="container mx-auto pt-16">
+            <h1 class="text-4xl font-bold text-center">"Testimonials"</h1>
+            <div class="flex flex-wrap mt-20 min-w-full rounded-lg">
+                <div
+                    class="xl:w-2/5 lg:w-2/5 sm:w-full bg-gradient-to-r from-purple-700 to-purple-500 py-16 xl:py-32 px-8 xl:px-16 text-center xl:text-left lg:text-left md:text-left sm:text-left xl:rounded-tl xl:rounded-bl">
+                    <h1 class="font-extrabold text-4xl text-white pb-2">Our Happy Clients</h1>
+                    <p class="text-lg text-white">Our takeout just went throughout the roof because we could be taking
+                        five orders at one time instead of one order at a time.</p>
+                </div>
+                <div
+                    class="lg:w-3/5 xl:w-3/5 bg-gray-200 pl-4 pt-4 pb-4 pr-4 xl:pr-10 xl:pl-0 xl:pt-10 xl:pb-10 xl:rounded-tr xl:rounded-br">
+                    <section id="carousel">
+                        <figure class="visible">
+                            <div class="relative bg-white">
+                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt=""
+                                    class="absolute -mt-4 pl-6 sm:pl-12" />
+                                <div class="pt-20 px-6 sm:px-12">
+                                    <p class="text-gray-600 text-base pb-6">From local banks to local government, we
+                                        partner with organizations on their journey to digital transformation. Our
+                                        customers include 15 million professionals in 175 countries and 800 of the
+                                        fortune 1000.</p>
+                                    <p class="text-gray-600 text-base pb-8">We can't believe how far we have come in the
+                                        last 6 months. I really did not think this awesome career move would come so
+                                        quickly. Thanks to each of you put into SI and the partner relationships.</p>
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center pb-12">
+                                            <div class="h-12 w-12">
+                                                <img src="https://tuk-cdn.s3.amazonaws.com/assets/components/testimonials/t_1.png"
+                                                    alt=""
+                                                    class="h-full w-full object-cover overflow-hidden rounded-full" />
+                                            </div>
+                                            <p class="text-gray-600 font-bold ml-3">
+                                                Jane Doe
+                                                <br />
+                                                <span class="text-gray-600 text-base font-light">Apple Inc</span>
+                                            </p>
+                                        </div>
+                                        <div class="cursor-pointer flex pb-12">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-chevron-left" width="44" height="44"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" onclick="movePrev()">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="15 6 9 12 15 18" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-chevron-right" width="44"
+                                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                onclick="moveForward()">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="9 6 15 12 9 18" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figure class="hidden">
+                            <div class="relative bg-white">
+                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt=""
+                                    class="absolute -mt-4 pl-6 sm:pl-12" />
+                                <div class="pt-20 px-6 sm:px-12">
+                                    <p class="text-gray-600 text-base pb-6">The company really helped me with my
+                                        personal branding. Everything from conception to execution was extremely awesome
+                                        and really professional. I enjoyed the services they offered. Their design is
+                                        impeccable.</p>
+                                    <p class="text-gray-600 text-base pb-8">I truly value the relationship they created
+                                        with me. I will always think first about them while starting any projects in the
+                                        future. They are definitely my go-to for any design or services. Excellent
+                                        communication and I always feel that I am their first priority.</p>
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center pb-12">
+                                            <div class="h-12 w-12">
+                                                <img src="https://cdn.tuk.dev/assets/templates/Project+Management/pm_15.png"
+                                                    alt=""
+                                                    class="h-full w-full object-cover overflow-hidden rounded-full" />
+                                            </div>
+                                            <p class="text-gray-600 font-bold ml-3">
+                                                Richard Stark
+                                                <br />
+                                                <span class="text-gray-600 text-base font-light">UX Strategy</span>
+                                            </p>
+                                        </div>
+                                        <div class="cursor-pointer flex pb-12">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-chevron-left" width="44" height="44"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" onclick="movePrev()">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="15 6 9 12 15 18" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-chevron-right" width="44"
+                                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                onclick="moveForward()">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="9 6 15 12 9 18" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                        <figure class="hidden">
+                            <div class="relative bg-white">
+                                <img src="https://cdn.tuk.dev/assets/qoute-1.png" alt=""
+                                    class="absolute -mt-4 pl-6 sm:pl-12" />
+                                <div class="pt-20 px-6 sm:px-12">
+                                    <p class="text-gray-600 text-base pb-6">It's not just a pretty face but I am also
+                                        thrilled by the quality of support. It's fast reliable and has no complications
+                                        at all. It has completely changed the way I develop a website . It lets you
+                                        create anything you envision and it does so easily and flawlessly.</p>
+                                    <p class="text-gray-600 text-base pb-8">Undoubtedly working with them was just like
+                                        playing. It was so easy editing your content, so fast getting perfect results
+                                        and so easy customizing based on your own brand.Thank you so much.</p>
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center pb-12">
+                                            <div class="h-12 w-12">
+                                                <img src="https://cdn.tuk.dev/assets/templates/Project+Management/pm_18.png"
+                                                    alt=""
+                                                    class="h-full w-full object-cover overflow-hidden rounded-full" />
+                                            </div>
+                                            <p class="text-gray-600 font-bold ml-3">
+                                                Thomas Clark<br />
+                                                <span class="text-gray-600 text-base font-light">Maintenance</span>
+                                            </p>
+                                        </div>
+                                        <div class="cursor-pointer flex pb-12">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-chevron-left" width="44" height="44"
+                                                viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0" fill="none"
+                                                stroke-linecap="round" stroke-linejoin="round" onclick="movePrev()">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="15 6 9 12 15 18" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="icon icon-tabler icon-tabler-chevron-right" width="44"
+                                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#CBD5E0"
+                                                fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                onclick="moveForward()">
+                                                <path stroke="none" d="M0 0h24v24H0z" />
+                                                <polyline points="9 6 15 12 9 18" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </figure>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <style>
+            section#carousel>figure>div {
+                display: none;
+            }
+
+            section#carousel>figure.visible>div {
+                display: block;
+                position: relative;
+                overflow: hidden;
+            }
+        </style>
+
+
+    </div>
+
+
+
+    <footer>
+        <div class="relative mt-60 px-6">
+            <img class="absolute bg-purple-900 inset-0 w-full h-full object-cover object-center" />
+            <div class="container relative z-10 mx-auto lg:flex justify-between px-6 pt-8 lg:pt-32 pb-6 lg:pb-28">
+                <div class="lg:w-1/4 pb-12 lg:pb-0">
+                    <div class="flex">
+                        <span><i class="fas fa-code text-white text-4xl"></i></span>
+                        <h3 class="font-bold text-white text-4xl ml-4">codeme.</h3>
+                    </div>
+                    <p class="text-white text-lg mt-4">4140 Parker Rd. Allentown, New Mexico 31134</p>
+                    <div class="mt-12">
+                        <a href="" class="bg-purple-100 text-purple-600 font-bold px-10 py-2 mt-20 relative">Source
+                            Code</a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 sm:flex justify-between lg:justify-end">
+                    <div class="lg:pr-24 pb-12 lg:pb-0">
+                        <h3 class="mb-6 text-lg text-white font-bold">Links</h3>
+                        <ul class="text-white">
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Products</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Claims</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Renewals</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lg:pr-24 pb-12 lg:pb-0">
+                        <h3 class="mb-6 text-lg text-white font-bold">Services</h3>
+                        <ul class="text-white">
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Products</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Claims</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Renewals</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-6 text-lg text-white font-bold">About</h3>
+                        <ul class="text-white">
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Products</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Claims</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="javascript:void(0)">Renewals</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 flex lg:justify-end items-end mt-12 lg:mt-0">
+                    <a href="https://www.facebook.com/san.fauzan.79/" class="text-purple-600">
+                        <div class="bg-purple-100 px-4 py-3 rounded-full mr-2.5">
+                            <i class="fab fa-facebook-f"></i>   
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/sandifauzan_/" class="text-purple-600">
+                        <div class="bg-white px-4 py-3  rounded-full mr-2.5">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </a>
+                    <a href="https://github.com/cyronito/" class="text-purple-600">
+                        <div class="bg-white px-4 py-3  rounded-full mr-2.5">
+                            <i class="fab fa-github"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
